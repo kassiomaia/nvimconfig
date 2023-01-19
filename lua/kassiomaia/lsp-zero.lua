@@ -20,7 +20,6 @@ M.on_attach = function(_, bufnr)
 end
 
 lsp.configure('gopls', M)
-lsp.configure('lua_language_server', M)
 lsp.configure('sumneko_lua', M)
 lsp.configure('clangd', M)
 
